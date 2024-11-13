@@ -95,4 +95,37 @@ nav>ul>a>li{
 
 /* #endregion /*
 /* #region Navigation */
+/* #region Navbar Phone */
+@media screen and (max-width: 440px){
+
+nav ul{
+    flex-direction: column;
+    font-size: 2.5em;
+}
+nav ul li{
+    margin: 0;
+    border-radius: 0px;
+} 
+article{
+    width: 90%;
+}
+article>p{
+    width: 90%;
+    font-size: 8vw;
+}
+article>h1{
+    font-size: 8vw;
+}
+figcaption{
+    font-size: 8vw;
+}
+h1{
+    font-size: 8vw;
+}
+.headers{
+    font-size: 8vw;
+}
+
+}
+/* #endregion */
 /* #endregion */
